@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>  
+    <main class="contenedor-login" >
+        <form class="form" method="POST" action="php/register.php">  
+            <h1 class="">Crea una cuenta en ferreteria Don Tono</h1> 
+             <div class="inputblock"> 
+                <label for="floatingInput">Nombre completo</label><br>
+                <input type="text" class="inputs" id="floatingInput" placeholder="Npmbre Apellido" name="nombre"> 
+            </div>
+            <div class="inputblock"> 
+                <label for="floatingInput">Correo electronico</label><br>
+                <input type="email" class="inputs" id="floatingInput" placeholder="name@example.com" name="correo"> 
+            </div> 
+            <div class="inputblock"> 
+                <label for="floatingPassword">Contraseña</label> <br>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password"> 
+            </div> 
+        </div>
+    <div class="inputblock">
+        <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button> 
+        <p class="mt-5 mb-3 text-body-secondary">© 2017–2025</p> 
+    </div> 
+        </form>
+    </main>
+</body>
+</html>
